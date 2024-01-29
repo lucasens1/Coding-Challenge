@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+}
+
+.partetop > h2{
+    color: #00dd00;
+}
+
+body{
+    background-image: url(img/background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.container{
+    padding: 5%;
+    margin: auto;
+    text-align: left;
+    height: 600px;
+    width: 600px;
+    background-color: rgba(50, 50, 51, 0.8);
+    border-radius: 20px;
+}
+
+.partetop{
+    text-align: center;
+}
+
+.partetop > img{
+    width: 200px;
+    height: 90px;
+}
+
+.bottoninav{
+    background-color: #00dd00;
+    width: 100%;
+    margin: 3px;
+    padding: 10px;
+}
+
+.batteria{
+    border-radius: 10px;
+}
+
+.half{
+    width: 300px;
+    height: 20px;
+    background-color: #f5b453;
+}
+
+.full{
+    width: 600px;
+    height: 20px;
+    background-color: #1ec31e;
+}
+
+.poor{
+    width: 50px;
+    height: 20px;
+    background-color: #be4141;
+}
+
+.partetop > h2{
+    color: #00dd00;
+}
+
+main{
+        color: white;
+}
+
+.info{
+    margin: 5px;
+    padding: 10px;
+}
+
+.nomemono {
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 2px;
+}
+
+.viamono{
+    font-weight: 500;
+    margin: 2px;
+}
+
+.infobatteria{
+    margin: 2px;
+}
+
+.half, .full, .poor{
+    border-radius: 3px;
+}
